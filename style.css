@@ -516,6 +516,81 @@ transition: top .8s 0.2s;
 margin-bottom: 8rem;
 }
 }
+@media(max-width: 580px){
+	html{
+		font-size:40%;
+	}
+
+	.navbar-link{
+		margin: 0 .7rem; 
+	}
+	.section-1{
+		height: 80vh;
+		}
+		.section-heading{
+			padding-top: 20rem;
+		}
+	
+}
+
+@media(max-width:750px ){
+.gallery{
+	flex-direction: column;
+}
+.food-img{
+	min-width: 300px;
+	height: 20vh;
+}
+@media(max-width:350px ){
+
+.food-img{
+	min-width: 200px;
+	height: 20vh;
+}40rem;
+	}
+	.food-img{
+		min-width: 300px;
+	}
+
+
+}
+
+
+	@media(max-width: 900px){
+	.navbar-link{
+		margin: 2rem;
+	}
+
+.navbar-link{
+	font-size: 4rem;
+}
+.navbar-link span{
+	font-size: 2rem;
+}
+}
+
+@media(max-width:700px ){
+
+	.section-heading,.seation-2-heading,.section-3-heading{
+		font-size: 7rem;
+		/*margin: 0 10rem;*/
+	}
+	.section-1-icons i{
+		font-size: 30rem;
+	}
+	.menu{
+		left: 2rem;
+	}
+	.section-4{
+		height: 40rem;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+.section-4-text{
+margin-bottom: 8rem;
+}
+}
 @media(max-width: 550px){
 	html{
 		font-size:40%;
