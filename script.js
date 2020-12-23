@@ -15,7 +15,7 @@ icons[0].classList.add('change')
 	
 		icon.nextElementSibling.classList.add('change')
 	}
-}, 1000)
+}, 2000)
 
  document.querySelector('.menu').addEventListener
 ('click',()=>{
